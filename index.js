@@ -12,6 +12,6 @@ app.get('/', (req, res) => {
     res.send("Here you go");
 });
 
-app.listen(3000, () => {
+app.listen(1337, () => {
     console.log('Server Started');
 });
